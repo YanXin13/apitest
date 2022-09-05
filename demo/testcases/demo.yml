@@ -1,6 +1,6 @@
 config:
     name: "request methods testcase: reference testcase"
-    base_url: "https://baidu.com"
+    base_url: "baidu.com"
 
 teststeps:
 -

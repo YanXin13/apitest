@@ -1,0 +1,12 @@
+config:
+    name: "request methods testcase: reference testcase"
+    base_url: "https://baidu.com"
+
+teststeps:
+-
+    name: test
+    request:
+        method: GET
+        url: /
+    validate:
+        - eq: ["status_code", 200]
